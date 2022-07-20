@@ -9,7 +9,7 @@ import {motion ,AnimatePresence} from 'framer-motion'
 import { fromBottom, fromRigth,forIntro,fromTop } from '../Animation'
 import {useNavigate} from 'react-router-dom'
 import Socials from '../components/Socials'
-import { ImgContainer } from '../Style/GlobalStyle'
+
 import Profile from '../img/profile-img.png'
 const Main = () => {
   const navigate = useNavigate()
@@ -30,7 +30,7 @@ const Main = () => {
       
       </BlogComponent>
       <LowerDiv variants={fromBottom}>
-           <p onClick={()=>navigate('/about')}>About. </p>
+           <p onClick={()=>navigate('/projects')}>Projects. </p>
            <p onClick={()=>navigate('/myskill')}>My Skills</p>
       </LowerDiv>
 
@@ -38,7 +38,7 @@ const Main = () => {
      <AnimatePresence>
    {
     click &&
-        <Introduction variants={forIntro} initial='initial' animate='animate' key={Math.random()} exit='exit'>
+        <Introduction variants={forIntro} initial='initial' animate='animate'  exit='exit'>
         <SubDiv2>
             <Hi variants={fromTop}>Hi</Hi>
               <Name variants={fromBottom}>I'm ZPH. </Name>
@@ -46,7 +46,7 @@ const Main = () => {
         </SubDiv2>
         <SubDiv>
           <IMGContainer variants={fromBottom}>
-           <img src={Profile} alt="Profile Picture" />
+           <img src={Profile} alt="Profile " />
            </IMGContainer>
         </SubDiv>
     </Introduction>

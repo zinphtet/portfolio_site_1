@@ -23,7 +23,8 @@ const Power = styled(motion.div)`
    border-radius: 50%;
    /* border: 1px solid #000000; */
    display: flex;
-   position: absolute;
+   /* position: absolute; */
+   position: fixed;
    top:2%;
    left: 48%;
    transform: translate(-50%,-2%);

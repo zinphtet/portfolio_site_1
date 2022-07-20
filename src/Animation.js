@@ -77,10 +77,65 @@ export const forIntro = {
 		},
 	},
 	exit: {
-		top: '100%',
+		// top: '100%',
 		opacity: 0,
 		transition: {
 			duration: 1,
 		},
 	},
 };
+export const simpleFade = {
+	initial: {
+		opacity: 0,
+	},
+	animate: {
+		opacity: 1,
+		transition: { duration: 1 },
+	},
+};
+
+// export const pageFromLeft = {
+// 	initial: {
+// 		x: '100%',
+// 		opacity: 0,
+// 	},
+// 	animate: {
+// 		x: 0,
+// 		opacity: 1,
+// 		transition: { duration: 0.75 },
+// 	},
+// 	exit: {
+// 		opacity: 0,
+// 		transition: { duration: 0.5 },
+// 	},
+// };
+
+// export const pageFromBottom = {
+// 	initial: {
+// 		y: '100%',
+// 		opacity: 0,
+// 	},
+// 	animate: {
+// 		y: 0,
+// 		opacity: 1,
+// 		transition: { duration: 0.75 },
+// 	},
+// 	exit: {
+// 		opacity: 0,
+// 		transition: { duration: 0.5 },
+// 	},
+// };
+
+// export const pageFade = {
+// 	initial: {
+// 		opacity: 0,
+// 	},
+// 	animate: {
+// 		opacity: 1,
+// 		transition: { duration: 0.75 },
+// 	},
+// 	exit: {
+// 		opacity: 0,
+// 		transition: { duration: 0.5 },
+// 	},
+// };

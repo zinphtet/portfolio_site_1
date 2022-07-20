@@ -35,9 +35,10 @@ const VerLine = styled(motion.div)`
     border-radius: .2rem;
 `
 const SocialWrapper = styled(motion.div)`
-   position: absolute;
+   /* position: absolute; */
+   position: fixed;
    bottom: 0;
-   left: 0;
+   left: 2%;
    display: flex;
    flex-direction: column-reverse;
    gap: 1rem;

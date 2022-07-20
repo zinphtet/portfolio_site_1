@@ -17,18 +17,10 @@ export default Logo
  const LogoText = styled(motion.p)`
    font-family: 'Lobster Two', cursive;
    font-size: 3rem;
-   position: absolute;
+   position: fixed;
    top: 3%;
-   /* border: 1px solid red; */
+   z-index: 2;
    line-height: .9;
 
-   @media screen and (max-width : 56.25rem){
-      color: red;
-    }
-    @media screen and (max-width : 37.5rem){
-     color:green;
-    }
-    @media screen and (max-width :25rem){
-      color:blue;
-    }
+ 
 `
