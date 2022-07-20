@@ -7,7 +7,7 @@ import { fromRigth } from '../Animation'
 const Say = styled(motion.button)`
    line-height: .9;
    position: absolute;
-   top: 3%;
+   top: 0%;
    right: 0%;
    font-size: 1.5rem;
    border: 2px solid black;
