@@ -43,6 +43,7 @@ const SocialWrapper = styled(motion.div)`
    flex-direction: column-reverse;
    gap: 1rem;
    align-items: center;
+   overflow: hidden;
    svg{
     width: 3rem;
     height: 3rem;
