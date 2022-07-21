@@ -35,7 +35,7 @@ const AppWrapper = styled.div`
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   padding: 2rem;
   background-color: ${props=>props.theme.background};
   

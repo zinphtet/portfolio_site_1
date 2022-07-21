@@ -47,7 +47,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
 
 const BlogWrapper = styled(motion.div)`
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   /* border: 1px solid red; */
   overflow-x:hidden;
   /* overflow-y: auto; */
